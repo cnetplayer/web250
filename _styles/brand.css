@@ -1,0 +1,268 @@
+/*div {
+	border: 1px solid #FF0509;
+}*/
+
+/*body styles*/
+body{
+	background-color: #F5EBE0;
+	-webkit-box-shadow: 0px 0px 0px;
+	box-shadow: 0px 0px 0px;
+}
+p, h2, div, form, #fizzbuzz, .output{
+	color: #63006B;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1, h3 {
+	color:#FEA640;
+	font-family:Georgia, serif;
+}
+a {
+	text-decoration:none;
+	color:#63006B;
+}
+ul{
+	color:#63006B;
+	font-family:Arial, Helvetica, sans-serif;
+}
+hr{
+	color: #FEA640;
+	padding-left: 0px;
+	border-color: #FEA640;
+	border-width: 2px;
+	clear: both;
+}
+#page_wrapper {
+	background-color: #FFFFFF;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border: 1px solid #63006B;
+	-webkit-box-shadow: 2px 2px 5px #C3C3C3;
+	box-shadow: 2px 2px 5px #C3C3C3;
+}
+#page_body {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#script {
+	padding-left: 20px;
+}
+#left_toc {
+	float: left;
+	width: 450px;
+}
+#right_toc {
+	float: right;
+	width: 450px;
+	margin-right: 20px;
+}
+.toc_heading{
+	color: #63006B;
+	text-align: center;
+	text-decoration: underline;
+	background-color: #FEA640;
+}
+#left_toc a:hover {
+	background-color: #F5EBE0;
+}
+#right_toc a:hover {
+	background-color: #F5EBE0;
+}
+#fizzInput{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	text-align: center;
+	border: thin solid #F8D3A7;
+}
+#errorMessage {
+	margin-left: 50px;
+	font-size: 12px;
+}
+#errorMessage p, #errorMessage ul  {
+	color: #FF0509;
+}
+#page_body a:hover {
+	background-color: #F5EBE0;
+}
+.forms {
+	border: 2px dotted #63006B;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.required {
+	font-weight: bold;
+}
+.formErrorHint {
+	color: #FF0509;
+	font-size: small;
+}
+
+/*header banner styles*/
+#header {
+	height: 150px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#logo {
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#header_menu {
+	color: #63006B;
+	font-family: Georgia, serif;
+	float: right;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 70px;
+}
+
+/*footer styles*/
+#validation_footer {
+	margin-top: 25px;
+	text-align: center;
+	clear: both;
+}
+#tagline {
+	color: #63006B;
+	font-family:Georgia, serif;
+}
+#validation_footer img {
+	width: 88px;
+	height: 31px;
+	border: 0px;
+}
+
+/*columns*/
+.three_column {
+	margin: 10px;
+	padding: 5px;
+	float: left;
+	width: 30%;
+	font-size: 15px;
+}
+.two_column {
+	width: 45%;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.two_column_row {
+	clear: both;
+	width: 100%;
+}
+.three_column_row {
+	clear: both;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* CRUD - Add Record Slider*/
+.newrecord_position {
+	position: relative;
+}
+#new_record {
+	width: 500px;
+	position: absolute;
+	left: 250px;
+	top: 15px;
+	z-index: 100;
+	border: 1px solid #63006B;
+}
+#open {
+	margin: 0;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+	color: #63006B;
+	padding: 5px 0 2px 30px;
+	background-image: url(../_images/open.png);
+}
+#new_record .close {
+	background-image: url(../_images/close.png);
+}
+#open:hover {
+	color: #FEA640;
+}
+#new_record form {
+	padding: 10px 10px 10px 10px;
+	display: none;
+	background-color: #F5EBE0;
+	border: 1px solid #63006B;
+}
+#new_record label {
+	display: inline-block;
+	width: 250px;
+	text-align:right;
+	margin: 0 15px 0 0;
+	color: #63006B;
+}
+#new_record input {
+	font-size: 14px;	
+}
+#new_record #save {
+	margin: 5px 200px 0px 200px;
+}
+
+/* CRUD Update Form */
+#update_record {
+	width: 500px;
+	border: 1px solid #63006B;
+	margin: 0 auto;
+}
+#update_record form {
+	padding: 10px 10px 10px 10px;
+	background-color: #F5EBE0;
+	border: 1px solid #63006B;
+}
+#update_record label {
+	display: inline-block;
+	width: 250px;
+	text-align:right;
+	margin: 0 15px 0 0;
+	color: #63006B;
+}
+#update_record input {
+	font-size: 14px;	
+}
+#update_buttons {
+	margin: 0 auto;
+	text-align: center;
+}
+#update_record h3, #update_record p {
+	text-align: center;
+}
+
+/* CRUD Record Display Table */
+#crud_table {
+	width: 75%;
+	margin: 65px auto 20px auto;
+	text-align: center;
+	border: 1px solid #63006B;
+	border-radius: 10px;
+	background-color: #FEA640;
+}
+#crud_table th, #crud_table #last_row {
+	background-color: #FEA640;
+}
+#crud_table tr:nth-child(odd) {
+	background-color: #F5EBE0;
+}
+#crud_table tr:nth-child(even) {
+	background-color: #FFFFFF;
+}
+.record_message {
+	margin: 70px auto 5px auto;
+	width: 100%;
+	text-align: center;
+}

@@ -1,0 +1,14 @@
+<hr>
+  <div id="validation_footer">
+  	<h2 id="tagline">Your Total Tea Education</h2>
+	<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+	<img src="../_images/valid_html5.gif"  alt="Valid HTML 5"/>
+	</a>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+	<img src="../_images/valid-css.png" alt="Valid CSS!"/>
+	</a>
+  </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+<div id="header">
+    <a href="brand_template.php"><img src="_images/tt_logo.gif" id="logo" alt="Tea Total Logo"></a>
+	<div id="header_menu"><a href="brand_template.php">Home</a> | <a href="toc.php">Table of Contents</a> | <a href="http://students.cpcc.edu/~chwe7287/web250/">My WEB 250 Webspace</a> | <a href="contract.php">Course Contract </a></div>
+  </div>
+<hr>

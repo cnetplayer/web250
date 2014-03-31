@@ -1,0 +1,67 @@
+//Question 1
+::Q1::
+Which of the following is NOT a PHP Superglobal Variable?
+{
+~&_GET
+#Incorrect. See w3schools.com > PHP Basic > PHP Superglobals.
+~$_POST
+#Incorrect. See w3schools.com > PHP Basic > PHP Superglobals.
+=$_SEND
+#Correct! See w3schools.com > PHP Basic > PHP Superglobals.
+}
+
+//Question 2
+::Q2::
+Both GET and POST create ______.
+{
+=an array.
+#Correct! See w3schools.com > PHP Basic > PHP Form Handling.
+~a string.
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Handling.
+~random information.
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Handling.
+~a mess.
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Handling.
+}
+
+//Question 3
+::Q3::
+Which is true regarding PHP processing?
+{
+~PHP code are executed in the cloud, and the result is returned to the browser as plain text.
+#Incorrect. See w3schools.com > PHP Basic > PHP Intro.
+=PHP code are executed on the server, and the result is returned to the browser as plain HTML.
+#Correct! See w3schools.com > PHP Basic > PHP Intro.
+~PHP code are executed in the browser, just like HTML and JavaScript.
+#Incorrect. See w3schools.com > PHP Basic > PHP Intro.
+~PHP code doesn’t require processing.
+#Incorrect. See w3schools.com > PHP Basic > PHP Intro.
+}
+
+//Question 4
+::Q4::
+What does $_SERVER["PHP_SELF"] return?
+{
+~A built in PHP function
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Validation.
+~The referring page URL
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Validation.
+~It doesn't return anything
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Validation.
+=The filename of the currently executing script.
+#Correct! See w3schools.com > PHP Basic > PHP Form Validation.
+}
+
+//Question 5
+::Q5::
+Which form method has limits on the amount of information you can send?
+{
+~POST
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Handling.
+~SEND
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Handling.
+~THROW
+#Incorrect. See w3schools.com > PHP Basic > PHP Form Handling.
+=GET
+#Correct! See w3schools.com > PHP Basic > PHP Form Handling.
+}
